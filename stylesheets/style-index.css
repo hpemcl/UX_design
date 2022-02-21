@@ -59,15 +59,19 @@ header{
     padding-left: -10rem;
 }
 
+.nav-links-search{
+    margin-left: 600px;
+    margin-top: -55px;
+}
 
 
 
 .nav-links li{
     display: inline-block;
     padding: 10px 10px;
-    margin-right: 100px;
-    margin-left: -180px;
-    padding-left: 150px;
+    margin-right: 50px;
+    margin-left: -100px;
+    padding-left: 100px;
 }
 
 .nav-links li a{
@@ -143,7 +147,7 @@ img{
 .search-icon{
     position: relative;
     top: 10px;
-    width: 40px;
+    width: 30px;
     height: auto;
     cursor: pointer;
 }
@@ -156,64 +160,3 @@ img{
     height: auto;
 }
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
-}
-    nav button{
-        display: none;
-    }
-
- nav form{
-     position: absolute;
-     width: 61%;
-     left: 25%
-
- }
-
- nav form input{
-     width: 100%;
-     position: relative;
-     top: 5px;
-     padding: 10px 0;
-     border: none;
-     outline: none;
-     transform: scaleX(0);
-     transform-origin: right;
-    border-bottom: 1px solid black;
- }
-
-
-  nav form input::placeholder{
-    font-size: 20px;
-  }
-
-  nav form input.expand{
-    transform: scaleX(1);
-    padding:10px;
-}
-
-nav form input.expand ~ .fa-search{
-    visibility: hidden;
-}
-
-nav form input.expand ~ .fa-times {
-    display: block;
-}
-
-
-  nav form .fa{
-      position: absolute;
-      top: -45px;
-      right: 170px;
-      cursor: pointer;
-      color: black;
-
-  }
-
-  .fa-times{
-      display: none;
-  }
-  

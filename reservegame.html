@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reservestyle.css">
+    <title>Køge Bibliotek Case</title>
+</head>
+<body>
+
+    <div class="popup" id="reserved">
+        <div class="popupItems">
+            <h1>Reserveret</h1>
+            <h1>✓</h1>
+        </div>
+    </div>
+
+    <div class="popup" id="addedToList">
+        <div class="popupItems">
+            <h1>Tilføjet til huskeliste</h1>
+            <h1>✓</h1>
+        </div>
+    </div>
+    <section class ="main-material">
+        <img src="/Photos/fifa22.jpg" alt="fifa22">
+        <div class="verticalAlign">
+            <h2>FIFA 22 (Playstation 4)</h2>
+            <h3>Af Electronic Arts (2021)</h3>
+            <h3>Serie</h3>
+            <h3>EA Sports</h3>
+            <p>Verdens bedste fodboldspil er tilbage, opdateret til 2021/22 sæsonen. For alle fodboldfans
+            </p>
+        </div>
+        <div class="verticalAlign">
+        <button onclick="show('addedToList')">
+            Tilføj til huskeliste
+        </button>
+        <button onclick="show('reserved')">
+           Reservér
+        </button>
+        </div>
+    </section>
+
+<script src="reservescript.js"></script>
+</body>

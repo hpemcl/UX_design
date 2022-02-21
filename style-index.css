@@ -1,0 +1,219 @@
+:root{
+    --green: #7aba00;
+    --white: #fff;
+    --black: #000;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+.img-bib{
+    width: auto;
+    height: 60px;
+    position: relative;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+
+body{
+    margin: 0%;
+}
+
+li, a, .cta{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    width: 100%;
+
+}
+
+.nav-logo{
+    padding-left: 10px;
+    list-style: none;
+    margin-left: 20px;
+}
+
+
+
+.lower-nav{
+   text-align: center;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+.nav-links{
+    list-style: none;
+    
+}
+
+.nav-item{
+    margin: 10px;
+}
+
+.nav-item-åbningstider{
+    padding-left: 10px;
+    margin-left: -10px;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #7aba00;
+}
+
+.cta{
+    padding: 9px 40px;
+    padding-right: 45px;
+    background-color: rgba(0, 169, 0);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+    
+}
+
+
+.cta:hover{
+    background-color: rgba(0, 169, 0, 0.616);
+}
+
+.lower-nav-links{
+    list-style: none;
+    
+}
+
+.lower-nav-links li{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.lower-nav-links li a{
+    transition: all 0.3s ease 0s;
+    
+}
+
+.lower-nav-links li a:hover{
+    color: #7aba00;
+}
+
+img{
+    width: 20px;
+    height: auto;
+}
+
+.info-icon{
+    position: relative;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.calender-icon{
+    position: relative;
+    top: 10px;
+    width: 40px;
+    height: auto;
+}
+
+.opening-hours-icon{
+    
+}
+
+.search-icon{
+    position: relative;
+    top: 10px;
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+.lock-icon{
+    position: relative;
+    right: 1rem;
+    top: 6px;
+    width: 20px;
+    height: auto;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+    nav button{
+        display: none;
+    }
+
+ nav form{
+     position: absolute;
+     width: 61%;
+     left: 25%
+
+ }
+
+ nav form input{
+     width: 100%;
+     position: relative;
+     top: 5px;
+     padding: 10px 0;
+     border: none;
+     outline: none;
+     transform: scaleX(0);
+     transform-origin: right;
+    border-bottom: 1px solid black;
+ }
+
+
+  nav form input::placeholder{
+    font-size: 20px;
+  }
+
+  nav form input.expand{
+    transform: scaleX(1);
+    padding:10px;
+}
+
+nav form input.expand ~ .fa-search{
+    visibility: hidden;
+}
+
+nav form input.expand ~ .fa-times {
+    display: block;
+}
+
+
+  nav form .fa{
+      position: absolute;
+      top: -30px;
+      right: 170px;
+      cursor: pointer;
+      color: black;
+
+  }
+
+  .fa-times{
+      display: none;
+  }
+  

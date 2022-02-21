@@ -1,0 +1,76 @@
+
+.main-material {
+    /* float: left; */
+    /* position:absolute; */
+    display: flex;
+    /* justify-contents: space-between; */
+    
+}
+.verticalAlign {
+    padding-left: 10px;
+    /* display: block;  */
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+
+.main-material h2 {
+font-size: larger;
+margin: 0%;
+padding-bottom: 10px;
+}
+.main-material h3 {
+    font-size: medium;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.main-material p {
+    font-size: small;
+    color: gray;
+}
+.main-material img {
+    width: 200px;
+    border-radius: 10px;
+}
+.main-material button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 4px 2px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .popup {
+    display: none;
+    position: fixed;
+    padding: 10px;
+    width: 280px;
+    left: 50%;
+    margin-left: -150px;
+    height: 180px;
+    top: 50%;
+    margin-top: -100px;
+    background: #FFF;
+    z-index: 20;
+    box-shadow:  0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+  }
+  .popupItems h1 {
+    font-size: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+  .popupItems :nth-child(2) {
+   font-size: 50px;
+  }

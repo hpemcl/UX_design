@@ -21,19 +21,19 @@
 
 .pi{
     list-style: none;
+    width: 100%;
 }
 
 .fo-ko{
-    width: 25%;
+    width: 50%;
     padding: 0 20px;
     margin-top: 40px;
     margin-left: -20px;
 }
 
 .fo-ko h4{
-    font-size: 10px;
+    font-size: 20px;
     color: white;
-    text-transform: capitalize;
     margin-bottom: 25px;
     font-weight: 500;
     position:relative;
@@ -55,14 +55,14 @@
 }
 
 .fo-ko ul li a{
-    font-size: 10px;
-    text-transform: capitalize;
+    font-size: 20px;
     color: #ffffff;
     text-decoration: none;
     font-weight: 300;
     color: #bbbbbb;
     display: block;
     transition: all 0.3s ease;
+    width: 100%;
 }
 
 .fo-ko ul li a:hover{
@@ -76,9 +76,8 @@
 }
 
 .fo h4{
-    font-size: 10px;
+    font-size: 20px;
     color: white;
-    text-transform: capitalize;
     margin-bottom: 25px;
     font-weight: 500;
     position:relative;
@@ -100,8 +99,7 @@
 }
 
 .fo ul li a{
-    font-size: 10px;
-    text-transform: capitalize;
+    font-size: 12px;
     color: #ffffff;
     text-decoration: none;
     font-weight: 300;
@@ -129,7 +127,7 @@
 }
 
 .footer-col h4{
-    font-size: 10px;
+    font-size: 20px;
     color: white;
     text-transform: capitalize;
     margin-bottom: 25px;
@@ -154,7 +152,7 @@
 
 
 .footer-col ul li a{
-    font-size: 10px;
+    font-size: 12px;
     text-transform: capitalize;
     color: #ffffff;
     text-decoration: none;

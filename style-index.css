@@ -20,6 +20,8 @@ html{
     text-align: center;
     float: left;
     cursor: pointer;
+    margin-right: -50px;
+    margin-left: 100px;
 }
 
 body{
@@ -42,9 +44,7 @@ header{
 }
 
 .nav-logo{
-    padding-left: 10px;
     list-style: none;
-    margin-left: 20px;
 }
 
 
@@ -56,21 +56,18 @@ header{
 
 .nav-links{
     list-style: none;
-    
+    padding-left: -10rem;
 }
 
-.nav-item{
-    margin: 10px;
-}
 
-.nav-item-åbningstider{
-    padding-left: 10px;
-    margin-left: -10px;
-}
+
 
 .nav-links li{
     display: inline-block;
-    padding: 10px 30px;
+    padding: 10px 10px;
+    margin-right: 100px;
+    margin-left: -180px;
+    padding-left: 150px;
 }
 
 .nav-links li a{
@@ -82,15 +79,20 @@ header{
 }
 
 .cta{
-    padding: 9px 40px;
-    padding-right: 45px;
+    padding: 5px 50px;
+    padding-right: 50px;
     background-color: rgba(0, 169, 0);
     border: none;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     color: white;
-    
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+a{
+    padding-top: 10px;
 }
 
 
@@ -136,9 +138,7 @@ img{
     height: auto;
 }
 
-.opening-hours-icon{
     
-}
 
 .search-icon{
     position: relative;
@@ -206,7 +206,7 @@ nav form input.expand ~ .fa-times {
 
   nav form .fa{
       position: absolute;
-      top: -30px;
+      top: -45px;
       right: 170px;
       cursor: pointer;
       color: black;

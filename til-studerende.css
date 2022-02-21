@@ -18,14 +18,17 @@ body {
 }
 
 h1 {
-    color: #74BF04;
-    font-size: 250%;
+    color: rgba(0, 169, 0, 0.616);
+    font-size: 200%;
     margin-left: 13%;
+    margin-bottom: 20px;
+
 }
 
 h2 {
     color: #74BF04;
     font-size: 125%;
+    margin-bottom: 50px;
 }
 
 p {
@@ -42,8 +45,19 @@ p {
 .topp {
     margin-left: 13%;
     margin-right: 13%;
+    margin-top: 40px;
 }
 
 .topt {
     color: black;
+    font-size: 250%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.undertitel-studerende{
+    margin-top: 40px;
+
 }

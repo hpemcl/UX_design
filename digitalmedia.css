@@ -1,6 +1,6 @@
 .mediabox {
 align-items: center;
-    background-color: greenyellow;
+    background-color: grey;
     width: 500px;
     height: 200px;
     border-radius: 15px;
@@ -8,6 +8,7 @@ align-items: center;
     flex-wrap: wrap;
     align-content: center;
     padding: 10px;
+    margin-left: 240px;
 }
 .mediabox img {
     width: 150px;
@@ -18,7 +19,22 @@ align-items: center;
     font-size: larger;
     float: top;
     padding-bottom: 30px;
+   
 }
+
+.title-medier {
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.paragraf-medier{
+    margin-top: 20px;
+    margin-left: 250px;
+    max-width: 77%;
+    text-align: center;
+}
+
+
 .mediabox p {
     font-size: small;
     display: flex;
@@ -27,13 +43,13 @@ align-items: center;
     padding: 10px;
 
 }
-ul {
+.mediabox-links {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     list-style-position: inside;
     list-style-type: none;
 }
-ul li {
+.mediabox-links li {
 padding: 10px;
 
 }

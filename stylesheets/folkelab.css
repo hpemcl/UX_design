@@ -4,7 +4,9 @@ html {
 
 .Folkelab-titel {
     margin-top: 20px;
+    margin-left: 300px;
     color: rgba(0, 169, 0, 0.616); 
+    margin-bottom: 20px;
 }
 .folkelab-forklaring {
     color: rgba(0, 169, 0, 0.616);

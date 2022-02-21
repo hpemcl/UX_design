@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.brugbib {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.boks {
+    background-color: #E8E8E8;
+    width: 25%;
+
+}
+
+h1 {
+    color: #74BF04;
+    font-size: 250%;
+    margin-left: 13%;
+}
+
+h2 {
+    color: #74BF04;
+    font-size: 125%;
+}
+
+p {
+    color: #0D0D0D;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.imgtils {
+    height: 50%;
+    width: 100%;
+}
+
+.topp {
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.topt {
+    color: black;
+}

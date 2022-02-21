@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170x;
+    margin: auto;
+
+    
+}
+
+.row{
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.pi{
+    list-style: none;
+}
+
+.fo-ko{
+    width: 25%;
+    padding: 0 20px;
+    margin-top: 40px;
+    margin-left: -20px;
+}
+
+.fo-ko h4{
+    font-size: 10px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-weight: 500;
+    position:relative;
+}
+
+.fo-ko h4::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 3px;
+    box-sizing: border-box;
+    width: 20px;
+}
+
+.fo-ko ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.fo-ko ul li a{
+    font-size: 10px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.fo-ko ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.fo{
+    width: 25%;
+    padding: 0 20px;
+}
+
+.fo h4{
+    font-size: 10px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-weight: 500;
+    position:relative;
+}
+
+.fo h4::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 3px;
+    box-sizing: border-box;
+    width: 20px;
+}
+
+.fo ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.fo ul li a{
+    font-size: 10px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.fo ul li a:hover{
+    color: #ffffff;
+    padding-left: px;
+}
+
+
+
+.footer{ 
+    background-color: black;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 20px;
+}
+
+.footer-col h4{
+    font-size: 10px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-weight: 500;
+    position:relative;
+}
+
+.footer-col h4::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 3px;
+    box-sizing: border-box;
+    width: 20px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+
+.footer-col ul li a{
+    font-size: 10px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: px;
+}
+

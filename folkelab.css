@@ -1,0 +1,53 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: green; 
+}
+h2 {
+    color: green; 
+  }
+.main-img {
+    width: 800px;
+    border-radius: 15px;
+}
+
+.workshop {
+    background-color: rgb(218, 218, 218);
+    width: 300px;
+    padding-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.workshop img {
+    width: 300px;
+    border-radius: 10px;
+}
+.workshop h3 {
+    padding-left: 5px;
+    font-size: medium;
+    /* margin: 0%;
+    padding: 0%; */
+}
+.workshop h4 {
+
+    color: rgb(85, 85, 85);
+    margin: 0%;
+    padding: 0%;
+    padding-left: 5px;
+}
+.workshop h5 {
+    
+    color: gray;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 5px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    list-style-position: inside;
+    list-style-type: none;
+}

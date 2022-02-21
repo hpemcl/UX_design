@@ -1,0 +1,39 @@
+.mediabox {
+align-items: center;
+    background-color: greenyellow;
+    width: 500px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 10px;
+}
+.mediabox img {
+    width: 150px;
+  border-radius: 10px;
+ 
+}
+.mediabox h1 {
+    font-size: larger;
+    float: top;
+    padding-bottom: 30px;
+}
+.mediabox p {
+    font-size: small;
+    display: flex;
+}
+.mediaboxinfo {
+    padding: 10px;
+
+}
+ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    list-style-position: inside;
+    list-style-type: none;
+}
+ul li {
+padding: 10px;
+
+}

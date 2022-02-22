@@ -6,8 +6,8 @@ $ = function(id) {
   
   var show = function(id) {
       $(id).style.display ='block';
-      // setTimeout( function() {
-      //   $(id).style.display ='none'}, 1500);
+        setTimeout( function() {
+            $(id).style.display ='none'}, 1500);
   }
   var hide = function(id) {
       $(id).style.display ='none';

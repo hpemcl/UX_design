@@ -160,3 +160,11 @@ img{
     height: auto;
 }
 
+
+.nav-item:hover:after{
+    content: attr(data-hover);
+    font-size: 10px;
+    line-height: 100px;
+    font-weight: 200;
+    padding-top: 30px;
+}
